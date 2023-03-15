@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Baby Quiz</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="btn_comecar">COMEÇAR</string>
+    <string name="btn_entrar">ENTRAR</string>
+    <string name="tv_comecar">BEM VINDO(A) AO QUIZ DE CUIDADOS COM O(A) BEBÊ</string>
+    <string name="tv_entrar">SABER MAIS SOBRE GESTAÇÃO E MATERNODADE</string>
+    <string name="preg_info">INFORMACOES SOBRE COMO CUIDAR DO BEBE DURANTE A GESTACAO</string>
+    <string name="mom_image">mom image</string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz">
+
+    <android.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/tv_asks"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/toolbar"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="PERGUNTA"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="OPCAO1" />
+
+    <Button
+        android:id="@+id/btn_a2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_a1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="OPCAO2" />
+
+    <Button
+        android:id="@+id/btn_a3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_a2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="OPCAO3" />
+
+    <Button
+        android:id="@+id/btn_a4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_a3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="OPCAO4" />
+
+    <TextView
+        android:id="@+id/tv_ask_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/toolbar"
+        android:layout_alignBottom="@id/toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="32dp"
+        android:gravity="center"
+        android:text="PERGUNTA ?"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_seconds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/toolbar"
+        android:layout_alignBottom="@id/toolbar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="45dp"
+        android:text="20"
+        android:textSize="34sp" />
+
+</RelativeLayout>

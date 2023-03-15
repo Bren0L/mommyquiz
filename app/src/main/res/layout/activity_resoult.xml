@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resoult">
+
+    <TextView
+        android:id="@+id/tv_hits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_hits_text"
+        android:layout_alignStart="@+id/tv_hits_text"
+        android:layout_alignEnd="@+id/tv_hits_text"
+        android:text="10"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/tv_hits_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/btn_close"
+        android:text="ACERTOS"
+        android:textColor="#4CAF50"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_mistakes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_mistakes_text"
+        android:layout_alignStart="@+id/tv_mistakes_text"
+        android:layout_alignEnd="@+id/tv_mistakes_text"
+        android:text="10"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/tv_mistakes_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toEndOf="@id/btn_close"
+        android:text="ERROS"
+        android:textColor="#F44336"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_hits_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="FECHAR" />
+
+</RelativeLayout>
