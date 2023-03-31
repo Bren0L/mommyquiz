@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "575990708551",
+    "project_id": "mommyapp-e1775",
+    "storage_bucket": "mommyapp-e1775.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575990708551:android:41461a22b0eedc3f003462",
+        "android_client_info": {
+          "package_name": "com.example.babyquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575990708551-0bta6usubeimr7qpnjg781bj6qsl360v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.babyquiz",
+            "certificate_hash": "06872d0990e3fb8690b337b79ba415031e1a1743"
+          }
+        },
+        {
+          "client_id": "575990708551-3jc5qcvcapgv4ivu6kjqu0pfcciv9jjh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAup-GfGHhi66IY5n4sGslLPxZY8fDR5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "575990708551-3jc5qcvcapgv4ivu6kjqu0pfcciv9jjh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
