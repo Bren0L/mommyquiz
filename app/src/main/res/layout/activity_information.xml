@@ -1,13 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Information">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tv_info"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/preg_info" />
+        android:layout_below="@+id/toolbar2"
+        android:background="@color/tv_background"
+        android:textColor="@color/tv_color"
+        android:text="@string/preg_info"
+        android:textSize="24sp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/pink"
+        android:minHeight="?attr/actionBarSize" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_info"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"
+        app:backgroundTint="@color/purple_200"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        android:contentDescription="@string/fab_return"
+        android:focusable="true" />
+
 </RelativeLayout>

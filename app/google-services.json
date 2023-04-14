@@ -1,20 +1,20 @@
 {
   "project_info": {
-    "project_number": "575990708551",
-    "project_id": "mommyapp-e1775",
-    "storage_bucket": "mommyapp-e1775.appspot.com"
+    "project_number": "365623406674",
+    "project_id": "baby-quiz-68efb",
+    "storage_bucket": "baby-quiz-68efb.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:575990708551:android:41461a22b0eedc3f003462",
+        "mobilesdk_app_id": "1:365623406674:android:9f4bf7585ffbe585eaaf8b",
         "android_client_info": {
           "package_name": "com.example.babyquiz"
         }
       },
       "oauth_client": [
         {
-          "client_id": "575990708551-0bta6usubeimr7qpnjg781bj6qsl360v.apps.googleusercontent.com",
+          "client_id": "365623406674-1vdaikfljcb9abavs36agcf5ajhh8dmv.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.babyquiz",
@@ -22,20 +22,20 @@
           }
         },
         {
-          "client_id": "575990708551-3jc5qcvcapgv4ivu6kjqu0pfcciv9jjh.apps.googleusercontent.com",
+          "client_id": "365623406674-tsc0vdpi93u6fp6ak70984r1fdhep12i.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCAup-GfGHhi66IY5n4sGslLPxZY8fDR5g"
+          "current_key": "AIzaSyDfc-w_1iKnQ-B7GaFrPd9h2nXAxzDRVX0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "575990708551-3jc5qcvcapgv4ivu6kjqu0pfcciv9jjh.apps.googleusercontent.com",
+              "client_id": "365623406674-tsc0vdpi93u6fp6ak70984r1fdhep12i.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

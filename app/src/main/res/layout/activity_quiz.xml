@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Quiz">
 
-    <android.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
+        android:background="@color/pink"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme" />
 
@@ -18,40 +19,42 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_below="@id/toolbar"
-        android:gravity="center_horizontal|center_vertical"
+        android:background="@color/tv_background"
+        android:gravity="center"
         android:text="PERGUNTA"
+        android:textColor="@color/tv_color"
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/btn_a1"
+        android:id="@+id/btn_opt1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="OPCAO1" />
 
     <Button
-        android:id="@+id/btn_a2"
+        android:id="@+id/btn_opt2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btn_a1"
+        android:layout_below="@id/btn_opt1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:text="OPCAO2" />
 
     <Button
-        android:id="@+id/btn_a3"
+        android:id="@+id/btn_opt3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btn_a2"
+        android:layout_below="@id/btn_opt2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:text="OPCAO3" />
 
     <Button
-        android:id="@+id/btn_a4"
+        android:id="@+id/btn_opt4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btn_a3"
+        android:layout_below="@id/btn_opt3"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:text="OPCAO4" />
@@ -76,6 +79,7 @@
         android:layout_alignBottom="@id/toolbar"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="45dp"
+        android:gravity="center"
         android:text="20"
         android:textSize="34sp" />
 
